@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Map Exercise</title>
+
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <h3>I've been here</h3>
+    <!--The div element for the map -->
+    <div id="map"></div>
+    <div>
+      <button id="btnPrevious" class="invisible-button" onclick="showPreviousCity()" type="button">Previous</button>
+      <button id="btnNext" onclick="showNextCity()" type="button">Next</button>
+      <h1>Current City:</h1>
+      <h2 id="currentCity"></h2>
+    </div>
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDI4WkxRuWZnliLw7EbkhF5fFghV5nZz5Y&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
+  </body>
+</html>
