@@ -122,7 +122,7 @@ function toggleBounce(marker, animate) {
     }
 }
 
-function animate(marker, animate, time, functionToCall) {
+function animate(marker, animate, time) {
     setTimeout(function(){ 
         toggleBounce(marker, animate); 
         setTimeout(function() { toggleBounce(marker, false); }, 100);
