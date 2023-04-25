@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-24T22:29:51.480Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="rjr2qv2aM4vdH4XiJd6q" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-25T00:50:13.001Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="mn3qLN8Y4YesWbvNwRxx" version="21.2.1" type="github" pages="2">
   <diagram name="CoE Heroes Home" id="03018318-947c-dd8e-b7a3-06fadd420f32">
     <mxGraphModel dx="2049" dy="1091" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -270,6 +270,14 @@
         <mxCell id="_a2Yuz-cMbJrw9KgRdk0-132" value="&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;font color=&quot;#007fff&quot; style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;First &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Name&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#007fff&quot; style=&quot;font-size: 17px;&quot;&gt;Last Name&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="920" y="750" width="100" height="60" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="NvQWymfxI-66EYF7szYz" name="CoE Hero">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
