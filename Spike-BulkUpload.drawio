@@ -1,9 +1,191 @@
-<mxfile host="app.diagrams.net" modified="2023-05-17T15:16:38.465Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.3.2" etag="wwjONBrZT9FskcvjJgZJ" type="github">
-  <diagram name="Página-1" id="G67xTRT4J53XUfGPGiYW">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2023-05-17T18:20:18.904Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="J5JHsMAElM3wfDcuNTRE" version="21.3.2" type="github" pages="2">
+  <diagram name="Current" id="G67xTRT4J53XUfGPGiYW">
+    <mxGraphModel dx="778" dy="964" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="JrjW41yzkXKvzjy1YA23-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JrjW41yzkXKvzjy1YA23-1" target="JrjW41yzkXKvzjy1YA23-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JrjW41yzkXKvzjy1YA23-1" value="User" style="points=[[0.35,0,0],[0.98,0.51,0],[1,0.71,0],[0.67,1,0],[0,0.795,0],[0,0.65,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.user;fillColor=#005073;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="350" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JrjW41yzkXKvzjy1YA23-2" value="VAMA" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.azure_website;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="262" y="350" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JrjW41yzkXKvzjy1YA23-4" value="" style="shape=mxgraph.mockup.containers.marginRect;rectMarginTop=10;strokeColor=#666666;strokeWidth=1;dashed=0;rounded=1;arcSize=5;recursiveResize=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="330" y="37" width="670" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="JrjW41yzkXKvzjy1YA23-5" value="VAMA" style="shape=rect;strokeColor=none;fillColor=#008cff;strokeWidth=1;dashed=0;rounded=1;arcSize=20;fontColor=#ffffff;fontSize=17;spacing=2;spacingTop=-2;align=left;autosize=1;spacingLeft=4;resizeWidth=0;resizeHeight=0;perimeter=none;html=1;whiteSpace=wrap;" vertex="1" parent="JrjW41yzkXKvzjy1YA23-4">
+          <mxGeometry x="5" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JrjW41yzkXKvzjy1YA23-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JrjW41yzkXKvzjy1YA23-4" source="JrjW41yzkXKvzjy1YA23-6" target="JrjW41yzkXKvzjy1YA23-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JrjW41yzkXKvzjy1YA23-6" value="File Controller" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" vertex="1" parent="JrjW41yzkXKvzjy1YA23-4">
+          <mxGeometry x="120" y="303" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="JrjW41yzkXKvzjy1YA23-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JrjW41yzkXKvzjy1YA23-4" source="JrjW41yzkXKvzjy1YA23-8" target="JrjW41yzkXKvzjy1YA23-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JrjW41yzkXKvzjy1YA23-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JrjW41yzkXKvzjy1YA23-4" source="JrjW41yzkXKvzjy1YA23-8" target="JrjW41yzkXKvzjy1YA23-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JrjW41yzkXKvzjy1YA23-8" value="AssessmentImportService" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.services;" vertex="1" parent="JrjW41yzkXKvzjy1YA23-4">
+          <mxGeometry x="310" y="287.5" width="160" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="JrjW41yzkXKvzjy1YA23-10" value="Azure Blob Storage" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.storage_blob;" vertex="1" parent="JrjW41yzkXKvzjy1YA23-4">
+          <mxGeometry x="127" y="533" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="JrjW41yzkXKvzjy1YA23-12" value="Blob" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#DF8C42;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.azure_blob;" vertex="1" parent="JrjW41yzkXKvzjy1YA23-4">
+          <mxGeometry x="250" y="503" width="34" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="JrjW41yzkXKvzjy1YA23-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JrjW41yzkXKvzjy1YA23-4" source="JrjW41yzkXKvzjy1YA23-13" target="JrjW41yzkXKvzjy1YA23-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JrjW41yzkXKvzjy1YA23-13" value="Blob Repository" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.worker;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="JrjW41yzkXKvzjy1YA23-4">
+          <mxGeometry x="360" y="524" width="60" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="JrjW41yzkXKvzjy1YA23-18" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/bootstrap-vol-3/16/filetype-csv-128.png" vertex="1" parent="JrjW41yzkXKvzjy1YA23-4">
+          <mxGeometry x="30" y="293" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="JrjW41yzkXKvzjy1YA23-19" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/bootstrap-vol-3/16/filetype-csv-128.png" vertex="1" parent="JrjW41yzkXKvzjy1YA23-4">
+          <mxGeometry x="230" y="293" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="JrjW41yzkXKvzjy1YA23-32" value="Bulk Import Repository" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.worker;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="JrjW41yzkXKvzjy1YA23-4">
+          <mxGeometry x="560" y="303.5" width="60" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="JrjW41yzkXKvzjy1YA23-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.547;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JrjW41yzkXKvzjy1YA23-2" target="JrjW41yzkXKvzjy1YA23-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JrjW41yzkXKvzjy1YA23-17" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/bootstrap-vol-3/16/filetype-csv-128.png" vertex="1" parent="1">
+          <mxGeometry x="170" y="330" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="JrjW41yzkXKvzjy1YA23-34" value="VAMA DB" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/databases.svg;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="347" width="50" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="JrjW41yzkXKvzjy1YA23-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JrjW41yzkXKvzjy1YA23-32" target="JrjW41yzkXKvzjy1YA23-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Proposal" id="wNmrNzVDQkEeYw7RRPic">
+    <mxGraphModel dx="778" dy="964" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="XHMc5i8ebaVz1OLX6ZES-0" />
+        <mxCell id="XHMc5i8ebaVz1OLX6ZES-1" parent="XHMc5i8ebaVz1OLX6ZES-0" />
+        <mxCell id="XHMc5i8ebaVz1OLX6ZES-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="XHMc5i8ebaVz1OLX6ZES-1" source="XHMc5i8ebaVz1OLX6ZES-3" target="XHMc5i8ebaVz1OLX6ZES-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XHMc5i8ebaVz1OLX6ZES-3" value="User" style="points=[[0.35,0,0],[0.98,0.51,0],[1,0.71,0],[0.67,1,0],[0,0.795,0],[0,0.65,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.user;fillColor=#005073;strokeColor=none;" vertex="1" parent="XHMc5i8ebaVz1OLX6ZES-1">
+          <mxGeometry x="50" y="350" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XHMc5i8ebaVz1OLX6ZES-4" value="VAMA" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.azure_website;pointerEvents=1;" vertex="1" parent="XHMc5i8ebaVz1OLX6ZES-1">
+          <mxGeometry x="262" y="350" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XHMc5i8ebaVz1OLX6ZES-5" value="" style="shape=mxgraph.mockup.containers.marginRect;rectMarginTop=10;strokeColor=#666666;strokeWidth=1;dashed=0;rounded=1;arcSize=5;recursiveResize=0;html=1;whiteSpace=wrap;" vertex="1" parent="XHMc5i8ebaVz1OLX6ZES-1">
+          <mxGeometry x="330" y="37" width="670" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="XHMc5i8ebaVz1OLX6ZES-6" value="VAMA" style="shape=rect;strokeColor=none;fillColor=#008cff;strokeWidth=1;dashed=0;rounded=1;arcSize=20;fontColor=#ffffff;fontSize=17;spacing=2;spacingTop=-2;align=left;autosize=1;spacingLeft=4;resizeWidth=0;resizeHeight=0;perimeter=none;html=1;whiteSpace=wrap;" vertex="1" parent="XHMc5i8ebaVz1OLX6ZES-5">
+          <mxGeometry x="5" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XHMc5i8ebaVz1OLX6ZES-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XHMc5i8ebaVz1OLX6ZES-5" source="XHMc5i8ebaVz1OLX6ZES-8" target="XHMc5i8ebaVz1OLX6ZES-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XHMc5i8ebaVz1OLX6ZES-8" value="File Controller" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" vertex="1" parent="XHMc5i8ebaVz1OLX6ZES-5">
+          <mxGeometry x="120" y="303" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="XHMc5i8ebaVz1OLX6ZES-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XHMc5i8ebaVz1OLX6ZES-5" source="XHMc5i8ebaVz1OLX6ZES-11" target="XHMc5i8ebaVz1OLX6ZES-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="se9rNO1-ZPS6AvOk9W1t-7" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XHMc5i8ebaVz1OLX6ZES-9">
+          <mxGeometry x="-0.2862" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="se9rNO1-ZPS6AvOk9W1t-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XHMc5i8ebaVz1OLX6ZES-5" source="XHMc5i8ebaVz1OLX6ZES-11" target="se9rNO1-ZPS6AvOk9W1t-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="se9rNO1-ZPS6AvOk9W1t-9" value="3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="se9rNO1-ZPS6AvOk9W1t-1">
+          <mxGeometry x="0.1233" y="3" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="se9rNO1-ZPS6AvOk9W1t-6" value="6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XHMc5i8ebaVz1OLX6ZES-5" source="XHMc5i8ebaVz1OLX6ZES-11" target="XHMc5i8ebaVz1OLX6ZES-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XHMc5i8ebaVz1OLX6ZES-11" value="AssessmentImportService" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.services;" vertex="1" parent="XHMc5i8ebaVz1OLX6ZES-5">
+          <mxGeometry x="310" y="287.5" width="160" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="XHMc5i8ebaVz1OLX6ZES-12" value="Azure Blob Storage" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.storage_blob;" vertex="1" parent="XHMc5i8ebaVz1OLX6ZES-5">
+          <mxGeometry x="127" y="533" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="XHMc5i8ebaVz1OLX6ZES-13" value="Blob" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#DF8C42;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.azure_blob;" vertex="1" parent="XHMc5i8ebaVz1OLX6ZES-5">
+          <mxGeometry x="250" y="503" width="34" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="XHMc5i8ebaVz1OLX6ZES-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XHMc5i8ebaVz1OLX6ZES-5" source="XHMc5i8ebaVz1OLX6ZES-15" target="XHMc5i8ebaVz1OLX6ZES-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="se9rNO1-ZPS6AvOk9W1t-8" value="2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XHMc5i8ebaVz1OLX6ZES-14">
+          <mxGeometry x="-0.2787" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XHMc5i8ebaVz1OLX6ZES-15" value="Blob Repository" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.worker;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="XHMc5i8ebaVz1OLX6ZES-5">
+          <mxGeometry x="360" y="524" width="60" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="XHMc5i8ebaVz1OLX6ZES-16" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/bootstrap-vol-3/16/filetype-csv-128.png" vertex="1" parent="XHMc5i8ebaVz1OLX6ZES-5">
+          <mxGeometry x="30" y="293" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="XHMc5i8ebaVz1OLX6ZES-17" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/bootstrap-vol-3/16/filetype-csv-128.png" vertex="1" parent="XHMc5i8ebaVz1OLX6ZES-5">
+          <mxGeometry x="230" y="293" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="XHMc5i8ebaVz1OLX6ZES-18" value="Bulk Import Repository" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.worker;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="XHMc5i8ebaVz1OLX6ZES-5">
+          <mxGeometry x="560" y="303.5" width="60" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="se9rNO1-ZPS6AvOk9W1t-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XHMc5i8ebaVz1OLX6ZES-5" source="se9rNO1-ZPS6AvOk9W1t-0" target="se9rNO1-ZPS6AvOk9W1t-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="se9rNO1-ZPS6AvOk9W1t-10" value="4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="se9rNO1-ZPS6AvOk9W1t-4">
+          <mxGeometry x="-0.1739" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="se9rNO1-ZPS6AvOk9W1t-0" value="Storage Queue" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Storage_Queue.svg;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" vertex="1" parent="XHMc5i8ebaVz1OLX6ZES-5">
+          <mxGeometry x="358" y="53" width="64" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="se9rNO1-ZPS6AvOk9W1t-2" value="Blob was uploaded" style="shape=message;html=1;html=1;outlineConnect=0;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="XHMc5i8ebaVz1OLX6ZES-5">
+          <mxGeometry x="310" y="183" width="45" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="se9rNO1-ZPS6AvOk9W1t-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XHMc5i8ebaVz1OLX6ZES-5" source="se9rNO1-ZPS6AvOk9W1t-3" target="XHMc5i8ebaVz1OLX6ZES-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="193" />
+              <mxPoint x="430" y="193" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="se9rNO1-ZPS6AvOk9W1t-11" value="5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="se9rNO1-ZPS6AvOk9W1t-5">
+          <mxGeometry x="0.0694" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="se9rNO1-ZPS6AvOk9W1t-3" value="Storage Queue Import&amp;nbsp;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" vertex="1" parent="XHMc5i8ebaVz1OLX6ZES-5">
+          <mxGeometry x="560" y="49" width="68" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XHMc5i8ebaVz1OLX6ZES-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.547;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="XHMc5i8ebaVz1OLX6ZES-1" source="XHMc5i8ebaVz1OLX6ZES-4" target="XHMc5i8ebaVz1OLX6ZES-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XHMc5i8ebaVz1OLX6ZES-20" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/bootstrap-vol-3/16/filetype-csv-128.png" vertex="1" parent="XHMc5i8ebaVz1OLX6ZES-1">
+          <mxGeometry x="170" y="330" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="XHMc5i8ebaVz1OLX6ZES-21" value="VAMA DB" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/databases.svg;" vertex="1" parent="XHMc5i8ebaVz1OLX6ZES-1">
+          <mxGeometry x="1040" y="347" width="50" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="XHMc5i8ebaVz1OLX6ZES-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XHMc5i8ebaVz1OLX6ZES-1" source="XHMc5i8ebaVz1OLX6ZES-18" target="XHMc5i8ebaVz1OLX6ZES-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
