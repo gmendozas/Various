@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-17T18:20:18.904Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="J5JHsMAElM3wfDcuNTRE" version="21.3.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-05-17T18:26:48.538Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="1BBDcjOVXYcXgbByM7s4" version="21.3.2" type="github" pages="2">
   <diagram name="Current" id="G67xTRT4J53XUfGPGiYW">
-    <mxGraphModel dx="778" dy="964" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1674" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -79,13 +79,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XHMc5i8ebaVz1OLX6ZES-3" value="User" style="points=[[0.35,0,0],[0.98,0.51,0],[1,0.71,0],[0.67,1,0],[0,0.795,0],[0,0.65,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.user;fillColor=#005073;strokeColor=none;" vertex="1" parent="XHMc5i8ebaVz1OLX6ZES-1">
-          <mxGeometry x="50" y="350" width="50" height="50" as="geometry" />
+          <mxGeometry x="50" y="324" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="XHMc5i8ebaVz1OLX6ZES-4" value="VAMA" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.azure_website;pointerEvents=1;" vertex="1" parent="XHMc5i8ebaVz1OLX6ZES-1">
-          <mxGeometry x="262" y="350" width="50" height="50" as="geometry" />
+          <mxGeometry x="262" y="324" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="XHMc5i8ebaVz1OLX6ZES-5" value="" style="shape=mxgraph.mockup.containers.marginRect;rectMarginTop=10;strokeColor=#666666;strokeWidth=1;dashed=0;rounded=1;arcSize=5;recursiveResize=0;html=1;whiteSpace=wrap;" vertex="1" parent="XHMc5i8ebaVz1OLX6ZES-1">
-          <mxGeometry x="330" y="37" width="670" height="680" as="geometry" />
+          <mxGeometry x="330" y="11" width="670" height="680" as="geometry" />
         </mxCell>
         <mxCell id="XHMc5i8ebaVz1OLX6ZES-6" value="VAMA" style="shape=rect;strokeColor=none;fillColor=#008cff;strokeWidth=1;dashed=0;rounded=1;arcSize=20;fontColor=#ffffff;fontSize=17;spacing=2;spacingTop=-2;align=left;autosize=1;spacingLeft=4;resizeWidth=0;resizeHeight=0;perimeter=none;html=1;whiteSpace=wrap;" vertex="1" parent="XHMc5i8ebaVz1OLX6ZES-5">
           <mxGeometry x="5" width="70" height="30" as="geometry" />
@@ -178,13 +178,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XHMc5i8ebaVz1OLX6ZES-20" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/bootstrap-vol-3/16/filetype-csv-128.png" vertex="1" parent="XHMc5i8ebaVz1OLX6ZES-1">
-          <mxGeometry x="170" y="330" width="28" height="28" as="geometry" />
+          <mxGeometry x="170" y="304" width="28" height="28" as="geometry" />
         </mxCell>
         <mxCell id="XHMc5i8ebaVz1OLX6ZES-21" value="VAMA DB" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/databases.svg;" vertex="1" parent="XHMc5i8ebaVz1OLX6ZES-1">
-          <mxGeometry x="1040" y="347" width="50" height="49" as="geometry" />
+          <mxGeometry x="1040" y="321" width="50" height="49" as="geometry" />
         </mxCell>
         <mxCell id="XHMc5i8ebaVz1OLX6ZES-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XHMc5i8ebaVz1OLX6ZES-1" source="XHMc5i8ebaVz1OLX6ZES-18" target="XHMc5i8ebaVz1OLX6ZES-21">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AoyKT45pmTY2YfFZQKhW-0" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. CSV file, uploaded by user, is sent to Blob repository to be uploaded.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. File is uploaded to Blob Storage.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3. A message is sent to Storage Queue to indicate a blob has been uploaded.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4. StorageQueueImport function receives a message to trigger the process for bulk insert.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;5. AssessmentImportService&#39;s method to process a bulk insert is called.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;6. Data is processed and inserted to VAMA DB through BulkImportRepository.&lt;/span&gt;&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="XHMc5i8ebaVz1OLX6ZES-1">
+          <mxGeometry x="320" y="720" width="690" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
