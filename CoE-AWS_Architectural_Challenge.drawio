@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-05T17:53:21.555Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Uh9FVvutntWm8CjNrpM1" version="21.3.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-06-05T19:10:28.104Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="YimIHcA2vs2egl20cIiQ" version="21.3.3" type="github" pages="2">
   <diagram name="Initial" id="4kg18z0V7WkvskuCNW7o">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -34,23 +34,13 @@
         <mxCell id="tJVP_CJtPcMaXXXab1c2-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tJVP_CJtPcMaXXXab1c2-1" source="tJVP_CJtPcMaXXXab1c2-11" target="tJVP_CJtPcMaXXXab1c2-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tJVP_CJtPcMaXXXab1c2-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tJVP_CJtPcMaXXXab1c2-1" source="tJVP_CJtPcMaXXXab1c2-16" target="tJVP_CJtPcMaXXXab1c2-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="tJVP_CJtPcMaXXXab1c2-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="tJVP_CJtPcMaXXXab1c2-1" source="tJVP_CJtPcMaXXXab1c2-16" target="tJVP_CJtPcMaXXXab1c2-19">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="tJVP_CJtPcMaXXXab1c2-16" value="CloudFront" style="outlineConnect=0;dashed=0;verticalLabelPosition=top;verticalAlign=bottom;align=center;html=1;shape=mxgraph.aws3.cloudfront;fillColor=#F58536;gradientColor=none;labelPosition=center;" vertex="1" parent="tJVP_CJtPcMaXXXab1c2-1">
-          <mxGeometry x="120" y="132.5" width="76.5" height="93" as="geometry" />
-        </mxCell>
-        <mxCell id="tJVP_CJtPcMaXXXab1c2-19" value="Route 53" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.route_53;fillColor=#F58536;gradientColor=none;" vertex="1" parent="tJVP_CJtPcMaXXXab1c2-1">
-          <mxGeometry x="123" y="420" width="70.5" height="85.5" as="geometry" />
-        </mxCell>
-        <mxCell id="tJVP_CJtPcMaXXXab1c2-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tJVP_CJtPcMaXXXab1c2-21" target="tJVP_CJtPcMaXXXab1c2-19">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="tJVP_CJtPcMaXXXab1c2-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tJVP_CJtPcMaXXXab1c2-21" target="tJVP_CJtPcMaXXXab1c2-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="203" y="502.79999999999995" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="tJVP_CJtPcMaXXXab1c2-21" value="User" style="points=[[0.35,0,0],[0.98,0.51,0],[1,0.71,0],[0.67,1,0],[0,0.795,0],[0,0.65,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.user;fillColor=#005073;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="10" y="478" width="50" height="50" as="geometry" />
+          <mxGeometry x="10" y="194" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
